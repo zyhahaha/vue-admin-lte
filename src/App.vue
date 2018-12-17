@@ -4,9 +4,48 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
+
+    <!-- Main Header -->
+    <admin-header></admin-header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <main-sidebar></main-sidebar>
+
+    <!-- Content Wrapper. Contains page content -->
+    <!-- <content-wrapper></content-wrapper> -->
     <router-view/>
+    <!-- /.content-wrapper -->
+    <!-- Main Footer -->
+    <main-footer></main-footer>
+
+    <!-- Control Sidebar -->
+    <control-sidebar></control-sidebar>
+    <!-- /.control-sidebar -->
+    <!-- Add the sidebar's background. This div must be placed
+    immediately after the control sidebar-->
+    <div class="control-sidebar-bg"></div>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+// import contentWrapper from '@/components/content-wrapper/content.vue';
+import adminHeader from '@/components/main-header/header.vue';
+import mainSidebar from '@/components/main-sidebar/sidebar.vue';
+import mainFooter from '@/components/main-footer/footer.vue';
+import controlSidebar from '@/components/control-sidebar/sidebar.vue'
+
+export default {
+  name: 'Admin',
+  components: {
+    // contentWrapper,
+    adminHeader,
+    mainSidebar,
+    mainFooter,
+    controlSidebar
+  },
+  created() {}
+};
+</script>
 
 <style lang="scss">
 // #app {

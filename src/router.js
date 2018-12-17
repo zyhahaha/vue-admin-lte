@@ -13,10 +13,10 @@ export default new Router({
       name: 'admin',
       component: Admin
     },
-    // {
-    //   path: '/content',
-    //   name: 'content',
-    //   component: () => import(/* webpackChunkName: "content" */ './views/content/index.vue')
-    // }
+    {
+      path: '/table',
+      name: 'table',
+      component: () => import(/* webpackChunkName: "table" */ '@/views/tables/simple.vue')
+    }
   ]
 })

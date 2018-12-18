@@ -416,6 +416,10 @@
 
 <script>
 import '@/dist/css/skins/_all-skins.min.css';
+// import '@/bower_components/jquery-slimscroll/jquery.slimscroll.min.js';
+// import '@/bower_components/fastclick/lib/fastclick.js';
+// import '@/dist/js/demo.js';
+
 export default {
   name: "tables",
   created() {

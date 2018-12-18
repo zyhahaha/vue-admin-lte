@@ -943,7 +943,7 @@ export default {
         'paging'      : true,
         'lengthChange': false,
         'searching'   : false,
-        'ordering'    : true,
+        'ordering'    : false, // 排序
         'info'        : true,
         'autoWidth'   : false
       })

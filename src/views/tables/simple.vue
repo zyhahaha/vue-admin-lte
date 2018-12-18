@@ -419,7 +419,7 @@ import '@/dist/css/skins/_all-skins.min.css';
 export default {
   name: "tables",
   created() {
-    alert('134')
+    // alert('134')
   }
 };
 </script>

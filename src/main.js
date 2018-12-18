@@ -13,8 +13,8 @@ import '@/bower_components/jquery/dist/jquery.min.js';
 import '@/bower_components/bootstrap/dist/js/bootstrap.min.js';
 // test
 // import '@/bower_components/jquery-ui/jquery-ui.min.js';
-// import '@/bower_components/jquery-slimscroll/jquery.slimscroll.min.js';
-// import '@/bower_components/fastclick/lib/fastclick.js';
+import '@/bower_components/jquery-slimscroll/jquery.slimscroll.min.js';
+import '@/bower_components/fastclick/lib/fastclick.js';
 // test
 import '@/dist/js/adminlte.min.js';
 // import "@/bower_components/moment/moment.js";

@@ -416,9 +416,7 @@
 
 <script>
 import '@/dist/css/skins/_all-skins.min.css';
-// import '@/bower_components/jquery-slimscroll/jquery.slimscroll.min.js';
-// import '@/bower_components/fastclick/lib/fastclick.js';
-// import '@/dist/js/demo.js';
+import '@/bower_components/fullcalendar/dist/fullcalendar.min.css';
 
 export default {
   name: "tables",

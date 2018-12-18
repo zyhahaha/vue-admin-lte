@@ -28,6 +28,7 @@
 </template>
 
 <script>
+import '@/dist/css/skins/skin-blue.min.css';
 
 export default {
   name: "simpleContentWrapper",

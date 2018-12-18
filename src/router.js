@@ -17,6 +17,11 @@ export default new Router({
       path: '/table',
       name: 'table',
       component: () => import(/* webpackChunkName: "table" */ '@/views/tables/simple.vue')
+    },
+    {
+      path: '/calendar',
+      name: 'calendar',
+      component: () => import(/* webpackChunkName: "calendar" */ '@/views/calendar/index.vue')
     }
   ]
 })
